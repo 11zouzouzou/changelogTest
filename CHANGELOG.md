@@ -9,6 +9,8 @@
 * add44 ([7b6721f](https://github.com/11zouzouzou/changelogTest/commit/7b6721fef6c1b3d5bbcb8b6b495197bcf629cb51))
 * add4444 ([72d862f](https://github.com/11zouzouzou/changelogTest/commit/72d862fa0ca0901ce6e45e5f4bd4ff95af98be2a))
 * add666 ([94aeeb1](https://github.com/11zouzouzou/changelogTest/commit/94aeeb1822addef3ec5e4fe6a9624318d3585ce0))
+* add7 ([9c26184](https://github.com/11zouzouzou/changelogTest/commit/9c2618417c172cf7968351eb01605a89131e86ae))
+* add8 ([d5480d0](https://github.com/11zouzouzou/changelogTest/commit/d5480d02f1910e6b4bdab0c6b4a18f037fe5a906))
 * lerna add ([10b8340](https://github.com/11zouzouzou/changelogTest/commit/10b8340a03aef5e511335ac388deed80f276c236))
 * tag ([17655c9](https://github.com/11zouzouzou/changelogTest/commit/17655c910e62004f89b252d84ff7131228346968))
 * test ([7a04306](https://github.com/11zouzouzou/changelogTest/commit/7a043067815514d2ded2a6a0f0fdc29a1da85a99))

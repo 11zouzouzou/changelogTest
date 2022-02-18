@@ -1,4 +1,4 @@
-## 0.1.2 (2022-02-18)
+## 0.1.3 (2022-02-18)
 
 
 ### Bug Fixes
@@ -7,6 +7,7 @@
 * add3 ([ed81662](https://github.com/11zouzouzou/changelogTest/commit/ed816628fc56e5c1a35bcfe51d73ce0e4c84fdd6))
 * add666 ([94aeeb1](https://github.com/11zouzouzou/changelogTest/commit/94aeeb1822addef3ec5e4fe6a9624318d3585ce0))
 * add7 ([9c26184](https://github.com/11zouzouzou/changelogTest/commit/9c2618417c172cf7968351eb01605a89131e86ae))
+* add8 ([d5480d0](https://github.com/11zouzouzou/changelogTest/commit/d5480d02f1910e6b4bdab0c6b4a18f037fe5a906))
 * test ([7a04306](https://github.com/11zouzouzou/changelogTest/commit/7a043067815514d2ded2a6a0f0fdc29a1da85a99))
 * test3 ([83f3a05](https://github.com/11zouzouzou/changelogTest/commit/83f3a05250936c8eb4864b79fd1ac29ae8ba559b))
 
