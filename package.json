@@ -6,7 +6,7 @@
   "author": "zouzouzou11 <1096174991@qq.com>",
   "license": "MIT",
   "scripts": {
-    "l-changelog":"yarn conventional-changelog --preset angular --release-count 0 --commit-path $PWD --pkg ./packages/lerna2/package.json --outfile ./packages/lerna2/CHANGELOG.md --verbose",
+    "l-changelog":"yarn conventional-changelog --preset angular --release-count 0 --commit-path $PWD --pkg $PWD/package.json --outfile $PWD/CHANGELOG.md --verbose --lerna-package $LERNA_PACKAGE_NAME",
     "changelog": "yarn lerna exec --concurrency 1 --stream -- 'conventional-changelog --preset angular --release-count 0 --commit-path $PWD --pkg $PWD/package.json --outfile $PWD/CHANGELOG.md --verbose'",
     "lerna-version":"yarn lerna version --no-push"
   },
