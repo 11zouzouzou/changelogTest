@@ -1,7 +1,5 @@
 {
     "name": "lerna2",
-    "version": "1.0.0",
-    "main": "",
-    "dependencies": {
-    }
+    "version": "0.0.1",
+    "main": ""
 }
