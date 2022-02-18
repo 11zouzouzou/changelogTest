@@ -1,0 +1,58 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/zou/Downloads/github/changelogTest/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/zou/Downloads/github/changelogTest
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 3
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "lerna1@0.0.4-alpha.0-3-ga86c163" => {"lastTagName":"lerna1@0.0.4-alpha.0","lastVersion":"0.0.4-alpha.0","refCount":"3","sha":"a86c163","isDirty":false}
+14 info Looking for changed packages since lerna1@0.0.4-alpha.0
+15 silly checking diff packages/lerna1
+16 silly found diff in packages/lerna1/CHANGELOG.md
+16 silly found diff in packages/lerna1/package.json
+17 verbose filtered diff [ 'packages/lerna1/CHANGELOG.md', 'packages/lerna1/package.json' ]
+18 silly checking diff packages/lerna2
+19 silly found diff in packages/lerna2/index.js
+20 verbose filtered diff [ 'packages/lerna2/index.js' ]
+21 verbose updated lerna1
+22 verbose updated lerna2
+23 verbose git-describe undefined => "lerna1@0.0.4-alpha.0-3-ga86c163"
+24 silly git-describe parsed => {"lastTagName":"lerna1@0.0.4-alpha.0","lastVersion":"0.0.4-alpha.0","refCount":"3","sha":"a86c163","isDirty":false}
+25 info execute Skipping releases
+26 silly lifecycle No script for "preversion" in "changelog-test", continuing
+27 silly lifecycle No script for "preversion" in "lerna1", continuing
+28 silly lifecycle No script for "preversion" in "lerna2", continuing
+29 silly lifecycle No script for "version" in "lerna2", continuing
+30 silly lifecycle No script for "version" in "lerna1", continuing
+31 silly lifecycle No script for "version" in "changelog-test", continuing
+32 silly gitAdd .
+33 silly gitCommit Publish
+33 silly gitCommit
+33 silly gitCommit  - lerna1@0.0.4-alpha.0
+33 silly gitCommit  - lerna2@0.0.4
+34 verbose git [
+34 verbose git   'commit',
+34 verbose git   '-F',
+34 verbose git   '/private/var/folders/vd/q3yr8jjj12sdxwrbzjyhz60h0000gn/T/75678481-8e56-4abb-ad36-ef2d2e0a78d5/lerna-commit.txt'
+34 verbose git ]
+35 silly gitTag lerna1@0.0.4-alpha.0
+36 verbose git [ 'tag', 'lerna1@0.0.4-alpha.0', '-m', 'lerna1@0.0.4-alpha.0' ]
+37 silly gitTag lerna2@0.0.4
+38 verbose git [ 'tag', 'lerna2@0.0.4', '-m', 'lerna2@0.0.4' ]
+39 error Error: Command failed with exit code 128: git tag lerna1@0.0.4-alpha.0 -m lerna1@0.0.4-alpha.0
+39 error fatal: tag 'lerna1@0.0.4-alpha.0' already exists
+39 error     at makeError (/Users/zou/Downloads/github/changelogTest/node_modules/execa/lib/error.js:60:11)
+39 error     at handlePromise (/Users/zou/Downloads/github/changelogTest/node_modules/execa/index.js:118:26)
+39 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+39 error     at async Promise.all (index 0)
+39 error     at async Promise.all (index 0)
