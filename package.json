@@ -5,7 +5,12 @@
   "repository": "git@github.com:11zouzouzou/changelogTest.git",
   "author": "zouzouzou11 <1096174991@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "changelog": "yarn lerna exec --concurrency 1 --stream -- 'conventional-changelog --preset angular --release-count 0 --commit-path $PWD --pkg $PWD/package.json --outfile $PWD/CHANGELOG.md --verbose'"
+  },
   "devDependencies": {
+    "conventional-changelog-cli": "^2.2.2",
     "lerna": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }
