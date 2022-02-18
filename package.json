@@ -8,7 +8,7 @@
   "scripts": {
     "l-changelog":"yarn conventional-changelog --preset angular --release-count 0 --commit-path $PWD --pkg ./packages/lerna2/package.json --outfile ./packages/lerna2/CHANGELOG.md --verbose",
     "changelog": "yarn lerna exec --concurrency 1 --stream -- 'conventional-changelog --preset angular --release-count 0 --commit-path $PWD --pkg $PWD/package.json --outfile $PWD/CHANGELOG.md --verbose'",
-    "lerna-version":"yarn lerna version --no-push --no-git-tag-version"
+    "lerna-version":"yarn lerna version --no-push"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.2.2",
